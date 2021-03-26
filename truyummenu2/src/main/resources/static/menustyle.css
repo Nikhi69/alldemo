@@ -1,0 +1,215 @@
+
+          
+          
+@media only screen and (max-width: 480px) { 
+    #myTopnav{
+     background-color: tomato; 
+    
+     }
+     li {
+    list-style-type: none;
+    display: block;
+    width: 60%;
+    float: left;
+    }
+  
+    
+    .topnav a{
+        float: left;     
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 19px; 
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+         }
+
+.topnav {
+overflow: hidden;
+background-color: #333;
+
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+* {
+    box-sizing: border-box;
+  }
+
+  .imgcont{
+      background-image: url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+      background-size:cover;
+      background-repeat: no-repeat;
+      padding-top: 10%;
+      padding-bottom: 10%;
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    /* float: left; */
+    width: 50%;
+    background: #f1f1f1;
+  }
+  
+  .icon i{
+     margin-bottom: 10px;
+     margin-left: 20px;
+  }
+  
+  h2{
+      color: whitesmoke;
+      font-size: 50px;
+  }
+   
+  .icon{
+      /* margin: 0 auto; */
+      /* float: left; */
+      border: 1px solid grey;
+      width: 50px;
+      background: #a0a2a3;
+      padding-top: 22px;
+      
+  }
+  .example{
+      display: inline;
+  }
+  
+  /* form.example button:hover {
+    background: #0b7dda;
+  } */
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+footer{
+  background-color: tomato;
+  width: auto;
+  padding: 10px;
+  color: #ddd;
+}
+
+}
+
+
+
+/*desktop*/
+@media only screen and  (max-width:3000px) {
+   /* #myLinks {
+        float: right;
+       
+    } */
+    #myTopnav{
+        background-color: tomato;
+    }
+    body {
+        margin: 0;
+         font-family: Arial, Helvetica, sans-serif;
+    }
+        nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+            }
+
+        li {
+        display: inline;
+        }
+        
+    .topnav a {
+        display: inline;
+         float: left; 
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 19px;
+    }   
+
+    .topnav {
+            overflow: hidden;
+        background-color: #333;
+    }
+
+
+    .topnav a:hover {
+    background-color: rgb(195, 194, 194);
+    color: rgb(10, 10, 10);
+    }
+    * {
+        box-sizing: border-box;
+      }
+      .search{
+       
+          margin-left: 10%;
+          margin-right: 10%;
+         
+          
+      }
+      .imgcont{
+          background-image: url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+          background-size:cover;
+          background-repeat: no-repeat;
+          padding-top: 10%;
+          padding-bottom: 10%;
+      }
+      form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 90%;
+        background: #f1f1f1;
+      }
+      h2{
+          color: whitesmoke;
+          font-size: 50px;
+      }
+       
+      .icon{
+          
+          /* margin: 0 auto; */
+          float: left;
+          border: 1px solid grey;
+          width: 50px; 
+          display: inline;
+          position: relative;
+          background: #a0a2a3;
+          padding-top: 15px;
+      }
+  
+      .icon i{
+         margin-bottom: 10px;
+         margin-left: 20px;
+      }
+      
+      
+      /* form.example button:hover {
+        background: #0b7dda;
+      } */
+      
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    footer{
+        background-color: tomato;
+        width: auto;
+        padding: 10px;
+        color: #f2f2f2;
+        
+      
+    }
+}
